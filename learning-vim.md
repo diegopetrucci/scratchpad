@@ -29,9 +29,15 @@ okay i would say this marks the end of the first session. good stuff! i need to 
 * similar to f char you have t char which moves (un)til just before that character. T char for backwards
 * smaller session today but i think it's fine. im getting to the point where i can use vim now. not that well but i have basic motions + copy paste. not a lot but enough!
 * actually i dont know how to copy yet haha. only paste. but the next tutorial section is `operators` which i believe should help
-
+* i lied there's a couple more things. it bothers me that i dont know how to go to the beginning and end of a file. there seems to be a few commands to do it -- as in, many ways. anyways. gg goes to the beginning. G goes to the end but only last line, at its beginning, not at the real end. apparently :$ does it. it looks like an emoticon lol. or ]]. ill try both. so wait. it says ]] but i had to press shift ] shift ] aka }}. who knows. but it does what i want so it's nice
+* there's also two more things. 1) i got recommended vim easy motions and rainbow pharentesis. ill add them to the todo list. and the other one is that i dont know how to move whatever is after my cursor in a new line, kinda like pressing enter. ill add that too
+* ill also need to start adding these keys to anki to memorise them properly…
 
 
 
 TODOs:
-- [ ] I need to remember to sync my vim config to all macs / add it to the dot files
+- [x] I need to remember to sync my vim config to all macs / add it to the dot files
+- [ ] install vim easymotion
+- [ ] install rainbow pharentesis
+- [ ] put whatever is after my cursor in a new line
+- [ ] add keys to anki deck
