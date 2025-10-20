@@ -33,11 +33,32 @@ okay i would say this marks the end of the first session. good stuff! i need to 
 * there's also two more things. 1) i got recommended vim easy motions and rainbow pharentesis. ill add them to the todo list. and the other one is that i dont know how to move whatever is after my cursor in a new line, kinda like pressing enter. ill add that too
 * ill also need to start adding these keys to anki to memorise them properly…
 
+# Day 3!
 
+* i always forget how to go to the beginning and the end of the line. it's 0 for beginning, $ for the end. not the most intuitive.
+* i was searching how to move the current line im in down or up. in the meantime i found `dd` and then p or P to paste it. didnt' know dd was cut and not just delete. nice.
+* so apprently it's :m +1, or -2 to put it up. dunno why it's -2 it doesnt make sense. and also, i think it's time to enable the line numbers i've seen people jump to lines directly and i want to do that. 
+* i've enabled them, but i'm trying just the relative ones. i guess it makes it easier to jump to them. but it's a bit odd that :8 goes to the absolute 8 line and not what's showing as 8. but it also makes sense given i can just do eg :-8. nice emoticon lol
+* ill be honest, i've spent a good chunk of this session setting up tmux today. HOWEVER. i've done it all via vim. so i think it's still not too bad! and i've learned a couple more keys.
+
+# day 4
+
+* going through vimhero. it's like an interactive tutorial, i'm at the operators part. dw deletes a word. d$ to the end of line. ie d is the operator and then you add the motion.
+* i gave it a try and i think the really nice thing is that i don't actually seem to have like a "timer". it will wait. nice, but i can see how it would go wrong too.
+* dd deletes the entire line -- this i knew. D deletes from where i am to end of line. i like it. quicker than d$ like the website says
+* some more crazy stuff: dj deletes current and below line dk and above. then you have 3dd which removes 3. lemme try if it works for any arbitrary number of lines
+* it does! crazy. wonder if there's an up to. i guess -?. no. because if i do - it jumps to that line
+* last lesson in vimhero (nice website btw!): yy or Y copies the current line. and p pastes below, P above. i remember those.
+* i had a very nice moment just now. had a bunch of bs lines i entered to test stuff in this doc. saw them and wanted to delete them. i see the relative line number too and see it counts to five. i do `5dd` without thinking about it too much, and it deletes them! … except i missed one because it starts from 0, so they were actually 6 lines. but still, it felt nice, like im actually using the power of vim. no one taught me that "combination" in a way, it was an emergent behaviour
+* im going through vimtutor now. rapid fire of keys i either forgot or learned: x to delete under the cursor
+* i don't actually know how to abort an operator. eg i just pressed f for some reason when i actually wanted to press d. lemme add a todo
+* oh so the number prefix 3dd 3 works with all operators or motions i think. 3w goes 3 words forward
 
 TODOs:
 - [x] I need to remember to sync my vim config to all macs / add it to the dot files
 - [ ] install vim easymotion
 - [ ] install rainbow pharentesis
-- [ ] put whatever is after my cursor in a new line
+- [ ] put whatever is after my cursor in a new line, ie enter to newline
 - [ ] add keys to anki deck
+- [ ] how do i "abort" an operator, eg d?
+- [ ] how do i abort a command in normal mode
