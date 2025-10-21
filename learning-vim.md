@@ -52,7 +52,18 @@ okay i would say this marks the end of the first session. good stuff! i need to 
 * i had a very nice moment just now. had a bunch of bs lines i entered to test stuff in this doc. saw them and wanted to delete them. i see the relative line number too and see it counts to five. i do `5dd` without thinking about it too much, and it deletes them! … except i missed one because it starts from 0, so they were actually 6 lines. but still, it felt nice, like im actually using the power of vim. no one taught me that "combination" in a way, it was an emergent behaviour
 * im going through vimtutor now. rapid fire of keys i either forgot or learned: x to delete under the cursor
 * i don't actually know how to abort an operator. eg i just pressed f for some reason when i actually wanted to press d. lemme add a todo
+
+# day 5!
+
+* [diego from the future] i have managed to delete a couple of lines and i dont know how i did it. deleting, as in, i just had to read add `# day 5` etc as i nuked them. ha!. i know there's like a fully history but it's fine for now.
 * oh so the number prefix 3dd 3 works with all operators or motions i think. 3w goes 3 words forward
+* i like r to replace the character, but x deletes it wouthout replacing and without coming out of normal mode
+* for undo: u does undo. U is u but for the whole line. control r is re-do (undo the undo)
+* d$ deletes the line after the cursor, d0 before! to remind myself: dd is the whole line, d$ line after cursor, d0 before. d2w two rwords after, d7b 7 words back. very powerful
+* i think i will want to add a visual line break of like 120 as i am trying to run vim (via tmux) fullscreen and if vim is the only thing open it's crazy long
+* gg goes to beginning of file. G to end. how did i not know this before??? i was doing }} and {{…
+* something else related to that: gg to go to beginning of the file, V to enter visual mode, G to go to end, y to yank (copy). i have not yet explored visual mode but it looks super interesting
+* also, a bit less progress today as i spent a couple of hours reading up on neovim and configuring it for swift. i think i will only really learn vim if i end up using it like that, so i want to try my best to use it for ios -- and at least python too
 
 TODOs:
 - [x] I need to remember to sync my vim config to all macs / add it to the dot files
@@ -62,3 +73,4 @@ TODOs:
 - [ ] add keys to anki deck
 - [ ] how do i "abort" an operator, eg d?
 - [ ] how do i abort a command in normal mode
+- [ ] add a 120 max line visually
