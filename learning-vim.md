@@ -65,12 +65,30 @@ okay i would say this marks the end of the first session. good stuff! i need to 
 * something else related to that: gg to go to beginning of the file, V to enter visual mode, G to go to end, y to yank (copy). i have not yet explored visual mode but it looks super interesting
 * also, a bit less progress today as i spent a couple of hours reading up on neovim and configuring it for swift. i think i will only really learn vim if i end up using it like that, so i want to try my best to use it for ios -- and at least python too
 
-TODOs:
-- [x] I need to remember to sync my vim config to all macs / add it to the dot files
+# day 6
+
+* I really need to get into the visual mode, as i'm lacking all the stuff to select lines etc. but that's for later
+* in the meantime i'm installing catpuccin to have a decent them. it's good enough
+* i dont love the purple background but ill change it later
+* i also need to 1) make it so that telescope is triggered by a single key 2) install the tree navigator stuff. let's do both
+* i also need autocompletion / indentation for lua. dont think i have it
+
+# day ???
+
+* it's time to learn the visual/visual block stuff
+* okay so fundamentally it's: option v -- which enters the mode, then you do some actions (eg I for insert at beg of line), then escape. i am not sure if escape is always needed
+* not a lot more it seems like
+* i've also finally started anki for vim! there's a nice shared deck in ankiweb, but i'm also adding my own -- mostly for plugins like the commentator one.
+
+
+
+
+DOs:
+[x] I need to remember to sync my vim config to all macs / add it to the dot files
 - [ ] install vim easymotion
 - [ ] install rainbow pharentesis
 - [ ] put whatever is after my cursor in a new line, ie enter to newline
-- [ ] add keys to anki deck
+- [x] add keys to anki deck
 - [ ] how do i "abort" an operator, eg d?
 - [ ] how do i abort a command in normal mode
 - [ ] add a 120 max line visually
