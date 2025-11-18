@@ -79,12 +79,13 @@ okay i would say this marks the end of the first session. good stuff! i need to 
 * okay so fundamentally it's: option v -- which enters the mode, then you do some actions (eg I for insert at beg of line), then escape. i am not sure if escape is always needed
 * not a lot more it seems like
 * i've also finally started anki for vim! there's a nice shared deck in ankiweb, but i'm also adding my own -- mostly for plugins like the commentator one.
+* super super super useful: control o (back) i (forward) gets the cursor back where it was. eg i wanted to go to the previous {, and pressed shift [. which goes at the top of paragragh-ish. control o puts the cursor back to where i was!
+* `aw` marks a word. i saw this in anki, but i don't fully get it as `a` just inserts immediately. okay, i think it's in visual mode only
+* i still dont really know the difference between visual and visual block modes
+* also i have suggestions in enter via `blink`, but it's annoying when i just want to enter for new line and not accept the suggestions. i think i'll change it to tab
 
-
-
-
-DOs:
-[x] I need to remember to sync my vim config to all macs / add it to the dot files
+TODOs:
+- [x] I need to remember to sync my vim config to all macs / add it to the dot files
 - [ ] install vim easymotion
 - [ ] install rainbow pharentesis
 - [ ] put whatever is after my cursor in a new line, ie enter to newline
